@@ -35,4 +35,18 @@ iface enp2s0 inet static
 
 # Exercícios Aula 4 página 17
 
-TODO
+1. TODO
+
+2. Editar o ficheiro /etc/rsyslog.d/50-default.conf:
+    ```shell
+    sudo nano /etc/rsyslog.d/50-default.conf
+    ```
+    Adicionar a linha:
+    ```
+    mail.*			/var/log/logscorreio
+    ```
+    
+    Máquina Vizinha:
+    ```
+    mail.*			syslog@<IP_DA_MÁQUINA_VIZINHA>
+    ```
