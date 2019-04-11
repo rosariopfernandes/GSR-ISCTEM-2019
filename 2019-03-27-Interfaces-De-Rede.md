@@ -41,6 +41,7 @@ iface enp2s0 inet static
     ```shell
     sudo nano /etc/rsyslog.d/50-default.conf
     ```
+    
     Adicionar a linha:
     ```
     mail.*			/var/log/logscorreio
@@ -48,5 +49,5 @@ iface enp2s0 inet static
     
     Máquina Vizinha:
     ```
-    mail.*			syslog@<IP_DA_MÁQUINA_VIZINHA>
+    mail.*			@<IP_DA_MÁQUINA_VIZINHA>
     ```
