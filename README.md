@@ -4,6 +4,7 @@
 2. [Aula 4](2019-03-27-Interfaces-De-Rede.md)
 3. [Aula 5](2019-04-08-DNS.md)
 4. [Aula 6](2019-04-08-Apache.md)
+5. [Aula 8](2019-04-16-Permissoes.md)
 
 ## Nota
  - Os exercícios marcados com "TODO" ainda não foram resolvidos.
